@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+ul,ol
+{
+    list-style: none;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+    width: 1170px;
+    margin:auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.align-center
+{
+    align-items: center;
+}
+
+
+/* Navbar Starts Here */
+nav
+{
+    
+    background-color: #ffece1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.35);
+}
+nav .logo
+{
+    width: 20%;
+}
+nav .menu
+{
+    width: 50%;
+}
+nav .orderfood
+{
+    width: 30%;
+}
+nav .menu ul
+{
+    text-align: center;
+}
+nav .menu ul li
+{
+    display: inline-block;
+}
+nav .menu ul li a
+{
+    font-weight: 400;
+    color:#649483;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 50px 25px;
+    display: block;
+}
+nav .orderfood ul
+{
+    text-align: right;
+}
+nav .orderfood ul li
+{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav .orderfood ul li a
+{
+    font-weight: 400;
+    color:#ffece1;
+    text-transform: uppercase;
+    font-size: 19px;
+    padding: 10px 20px;
+    display: block;
+    background-color:#649483 ;
+    border-radius: 15px;
+}
+
+nav .orderfood ul li span
+{
+    font-size: 19px;
+    color: #649483;
+}
+
+/* Navbar Ends Here */
+
+/* Banner Starts Here */
+#banner
+{
+    width: 100%;
+    background-color: #ffece1;
+    height:800px;
+}
+#banner .row
+{
+    height: 800px;
+}
+
+#banner .bannercntone
+{
+    width: 40%;
+    text-align: left;
+    
+}
+#banner .bannercntone h1
+{
+    color:#649483 ;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 800;
+    
+}
+#banner .bannercntone p
+{
+    color:#649483 ;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 15px auto ;
+    
+}
+#banner .bannercnttwo
+{
+    width: 60%;
+    text-align:center;
+    
+}
+
+#banner .bannercnttwo h1
+{
+    font-size: 96px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #dd7017;
+}
+
+
+#banner .bannercnttwo a
+{
+    font-weight: 400;
+    color:#ffece1;
+    text-transform: uppercase;
+    font-size: 19px;
+    padding: 15px 15px;
+    display: inline;
+    background-color: #649483;
+    border-radius: 15px;
+    width: 142px;
+    height: 45px;
+    margin: auto;
+}
+.bannerpart
+{
+    background-color: #dc6f17;
+    width: 710px;
+    height: 174px;
+    border-radius: 20px;
+    margin: 70px auto;
+    color: #ffece1;
+    font-size: 16px;
+    font-weight: 400;
+}
+#banner .bannerpart img
+{
+    width: 95px;
+    height: 90px;
+    
+}
+
+
+/* Banner Ends Here */
+#favorites
+{
+    background-color: #649483;
+    text-align: center;
+    display: inline-block;
+    height: 800px;
+    width: 100%;
+    
+   
+}
+#favorites h1
+{
+    color: #ffece1;
+    font-weight: 800;
+    font-size: 112px;
+    text-align: left;
+}
+#favorites h2
+{
+    color: #ffece1;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+#favorites .plateone
+{
+    background-color:#ffece1 ;
+    width:370px;
+    border-radius: 30px;
+    color: #649483 ;
+}
+.plateone h4{
+    padding: 74px 50px;
+  
+}
+
+.plateone img
+{
+    width: 300px;
+    height: 300px;
+    padding: auto 70px;
+}
+
+.plateone p{
+    padding: 40px 50px;
+  text-align: justify;
+}
